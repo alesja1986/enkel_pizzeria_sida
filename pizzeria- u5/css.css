@@ -1,0 +1,345 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body{ 
+	background-image:url(pictures/baddas.png);
+	  background-attachment: fixed;
+
+}
+
+nav { background-image:url(pictures/transparent-bgs.png);
+      height:330px;
+	  width:240px;
+	  float:right;
+      margin-right:140px;
+	  border-bottom-left-radius:10px;
+	  border-bottom-right-radius:10px;
+}
+	
+
+button { background-image: url(pictures/transparent-bgs.png);
+color:white;
+border-radius: 10px;
+
+}
+
+
+nav h1 {text-align:center;
+        font-family: verdana;
+		font-weight:800;
+		font-size:26px;
+		color:rgba(255,255,255,1.00);
+		text-shadow: 2px 2px #000000;
+		margin-top:-7px;
+}
+
+header { width:800px;
+		background-color:rgba(189,243,223,1.00);
+		height:300px;
+		margin-left:auto;
+		margin-right:auto;
+		background-image:url(pictures/1.jpg);
+ 		border-top-left-radius:20px;
+	   border-top-right-radius:20px;
+  		border-left:double rgba(122,104,83,1.00);
+		border-right:double rgba(122,104,83,1.00) ;
+		border-top:double rgba(122,104,83,1.00) ;
+}       
+
+
+h2 {text-shadow: 2px 2px #FFFFFF;
+    font-family: Arial;
+	color:#000000;
+	font-size:20px;
+	padding-top:7px;
+	margin-left:7px;
+}
+
+
+
+nav h5 {text-align:center;
+        font-family: verdana;
+		font-weight:800;
+		font-size:16px;
+		color:rgba(255,255,255,1.00);
+		text-shadow: 2px 2px #000000;
+		margin-bottom:4px;
+		margin-top: -10px;
+}
+
+
+main { background-image: url(pictures/transparent-bg.png);
+	  width:800px;
+      height:950px;
+	  margin-top:-19px;
+      margin-left:auto;
+     margin-right:auto;
+	border-left:double  rgba(122,104,83,1.00);
+	border-right:double rgba(122,104,83,1.00);
+	font-family: verdana;
+	overflow-x: visible;
+	overflow-y: visible;
+}
+	 
+
+#logo { height:170px;
+}
+
+
+
+#zoom {float:right;
+       height:290px;
+	   margin-top:80px;
+	   margin-right:-80px;
+	   border:double  rgba(122,104,83,1.00);
+}
+
+
+#fb {height:30px;
+margin-bottom: 35px;
+
+ 
+}
+
+#instagram {height:30px;
+	margin-bottom: 35px;
+	margin-top: 4px;
+margin-left: 4px;
+		
+
+}
+
+#pizzor1{ width:300px;
+          float:left;
+          margin-left:13px;		  
+}
+
+
+#dinbestllning {height:auto;
+            width:250px;
+			background-image: url(pictures/transparent-bg.png);
+		  	text-align:center;
+		 	float:right;
+			margin-right:-23px;
+		   	border:double  rgba(122,104,83,1.00);
+			padding:5px;
+}
+
+
+#skicka {margin-bottom: 6px;
+	     margin-top:3px;
+		
+}
+
+
+p { font-weight:700;
+    margin-bottom:-2px;
+}
+	
+input {width:25px;
+       border: solid 2px ;
+	   border-radius: 5px;
+}
+
+.pizzaButton {
+	 font-weight: 700;}
+
+#googlemap {width:400px;
+   height:250px;
+     float:right;
+	 border:double  rgba(122,104,83,1.00);
+	 margin-top:40px;
+	 margin-right:-60px;
+}
+
+
+
+footer{color:#FFFFFF;
+       background-image:url(pictures/13_free_subtle_textures_seamless_tartan_and_plaid_patterns.jpg);
+	   background-size:cover;
+	   height:30px;
+       text-align:center;
+	   font-size:22px;
+	   width:800px;
+	   margin-left:auto;
+       margin-right:auto; 
+       text-shadow: 2px 2px #000000; 
+       border-left:double rgba(122,104,83,1.00);
+	   border-right:double rgba(122,104,83,1.00);
+	   border-bottom:double rgba(122,104,83,1.00);
+ }
+ 
+ 
+ 
+	   
+@media only screen and (max-width: 770px) {
+
+nav { background-image:url(pictures/transparent-bg.png);
+      height:auto;
+	  width:auto;
+
+	  border-top-left-radius:20px;
+}
+header {width: auto;
+      background-position: center;
+
+}   
+#googlemap {width:330PX;
+   height:200;
+	 border:double  rgba(122,104,83,1.00);
+	 margin-top:20px;
+	 margin-left:auto;
+       margin-right:auto;
+	 
+}
+
+main {width: auto;
+height: 1130px;
+}
+
+
+
+#dinbestllning {height:auto;
+            width:auto;
+			background-color:#ffffff;
+		  	text-align:center;
+			float:right;
+margin-left:auto;
+     margin-right:auto;
+}
+
+
+footer{
+position: fixed;
+    
+}     
+
+#pizzor1{ margin-bottom: 30px;		  
+}
+
+#zoom {height:270px;
+ margin-right:0px;
+ 
+		
+	
+}
+	
+
+}
+
+
+
+
+@media only screen and (max-width: 660px) {
+
+	
+	
+		  }
+	
+@media only screen and (max-width: 320px) {
+
+nav { background-image:url(pictures/transparent-bg.png);
+      height:auto;
+	  width:auto;
+	  float:left;
+	  border-top-left-radius:20px;
+}
+header {width: auto;
+      background-position: center;
+
+}   
+#googlemap {width:200px;
+   height:200px;
+     float:left;
+	 border:double  rgba(122,104,83,1.00);
+	 margin-top:0px;
+	 margin-left:auto;
+       margin-right:auto;  
+}
+
+main {width: auto;
+height: 1130px;
+}
+
+
+
+#dinbestllning {height:auto;
+            width:auto;
+			background-color:#ffffff;
+		  	text-align:center;
+margin-left:auto;
+     margin-right:auto;
+}
+
+
+footer{
+position: fixed;
+    
+}     
+
+#pizzor1{ margin-bottom: 30px;		  
+}
+
+#zoom {height:200px;
+      margin-left:auto;
+	    margin-right:auto;
+		position: fixed;
+	
+}
+
+}
+
+@media only screen and (max-width: 360px) {
+
+nav { background-image:url(pictures/transparent-bg.png);
+      height:auto;
+	  width:auto;
+	  float:left;
+	  border-top-left-radius:20px;
+}
+header {width: auto;
+      background-position: center;
+
+}   
+#googlemap {width:330PX;
+   height:200;
+	 border:double  rgba(122,104,83,1.00);
+	 margin-top:20px;
+	 margin-left:auto;
+       margin-right:auto;
+	 
+}
+
+main {width: auto;
+height: 1130px;
+}
+
+
+
+#dinbestllning {height:auto;
+            width:auto;
+			background-color:#ffffff;
+		  	text-align:center;
+			float: left;
+margin-left:auto;
+     margin-right:auto;
+}
+
+
+footer{
+position: fixed;
+    
+}     
+
+#pizzor1{ margin-bottom: 30px;		  
+}
+
+#zoom {height:0px;
+ 
+		
+	
+}
+	
+	
+		  }

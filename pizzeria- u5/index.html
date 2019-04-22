@@ -1,0 +1,142 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Alesjas Pizzor - Nybros hetaste pizzor</title>
+<link rel="stylesheet"  type="text/css" href="css.css">
+	<script type="text/javascript" src="events.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+
+<header id="bg">
+
+<nav id="menu">
+
+  
+  <img src="pictures/icon.png" alt="logo" id="logo">
+ 
+ <h1> 034-555-3343<br>
+  STORGATAN 34 </h1>
+<h5>Öppet varje dag 10.00-20.00</h5>
+ <a href="https://www.instagram.com/"><img src="pictures/unnamed.png" id="instagram" alt="länk till instgram"></a>
+<a href="https://sv-se.facebook.com/"><img src="pictures/Graphics-Vibe-Simple-Rounded-Social-Facebook.png" id="fb" alt="länk till fb"></a>
+
+  
+
+  
+
+
+
+</nav>
+
+
+
+
+</header>
+
+
+
+<main>
+
+
+<h2>I samtliga pizzor ingår sallad och dryck</h2>
+<div id="pizzor1"> 
+
+<div>
+<p id="margarita">1. MARGARITA - 75 kr</p>
+Mozarella ost, basilika , tomatsås<br>
+Antal <input class="pizzaQuantity" type="text" name="quantity" min="1" max="20" >
+ <button class="pizzaButton" onClick="addOrder(0, 75)" type="button">Lägg till</button> 
+</div>
+
+
+<div>
+<p id="milano">2. MILANO - 75 kr</p>
+Skinka , ost , tomatsås<br>
+Antal <input class="pizzaQuantity" type="text" name="quantity" min="1" max="20"> 
+<button class="pizzaButton" onClick="addOrder(1,75)" type="button">Lägg till</button>
+</div>
+
+<div>
+<p id="capriosa">3. CAPRIOSA - 80 kr</p>
+Skinka, färska champinjoner<br>
+Antal <input class="pizzaQuantity" type="text" name="quantity" min="1" max="20"> 
+<button class="pizzaButton" onClick="addOrder(2,80)" type="button">Lägg till</button>
+</div>
+
+
+<div>
+<p id="balbino">4. BALBINO - 75 kr</p>
+Salami, skinka , ost , ananas, <br>
+Antal <input class="pizzaQuantity" type="text" name="quantity" min="1" max="20">
+<button class="pizzaButton" onClick="addOrder(3,75)" type="button">Lägg till</button>
+</div>
+
+<div>
+<p id="calzone">5. CALZONE - 75 kr</p>
+Skinka (inbakad)<br>
+Antal <input class="pizzaQuantity" type="text" name="quantity" min="1" max="20">
+<button class="pizzaButton" onClick="addOrder(4,75)" type="button">Lägg till</button>
+</div>
+
+<div>
+<p id="vegetaria">6. VEGETARIA - 85 kr</p>
+Färska champinjoner,oliver, kronärtskocka<br>
+Antal <input class="pizzaQuantity" type="text" name="quantity" min="1" max="20">
+<button class="pizzaButton" onClick="addOrder(5,85)" type="button">Lägg till</button>
+</div>
+
+<div>
+<p id="fatkid">7. FAT KID - 80 kr</p>
+bearnaisesås, bacon , polly , marsipan<br>
+Antal <input class="pizzaQuantity" type="text" name="quantity" min="1" max="20">
+<button class="pizzaButton" onClick="addOrder(6, 80)" type="button">Lägg till</button>
+</div>
+
+<div>
+<p id="mlecko">8. MLECKO - 80 kr</p>
+Färska champijoner, paprika, maisr<br>
+Antal <input class="pizzaQuantity" type="text" name="quantity" min="1" max="20">
+<button class="pizzaButton" onClick="addOrder(7, 80)" type="button">Lägg till</button>
+</div>
+
+<div >
+<p id="africana">9. AFRICANA - 80 kr</p>
+Banan, ananas , cocos , kyckling <br>
+Antal <input class="pizzaQuantity" type="text" name="quantity" min="1" max="20">
+<button class="pizzaButton" onClick="addOrder(8,80)" type="button">Lägg till</button>
+</div>
+
+
+<div>
+<p id="lyxig">10. LYXIG - 90 kr </p>
+Fläskfilé, bacon, bearnaisesås, gorgonzola,<br>
+Antal <input class="pizzaQuantity" type="text" name="quantity" min="1" max="20">
+<button class="pizzaButton" onClick="addOrder(9,90)" type="button">Lägg till</button>
+</div>
+
+</div>
+
+<div id="dinbestllning">
+<span id="pizzaNamn">Din order: </span><br>
+<span id="pizzaKostnad">Summa: 0 sek.</span><br>
+<button id="skicka" type="button" onClick="sendOrder()" >Skicka beställning</button>
+<button type="button" onclick="window.location.href=window.location.href">Nollställ din beställning</button>
+</div>
+
+<img src="pictures/pizzor.png" id="zoom" alt="bildpiz">
+
+
+<div id="googlemap"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Storgatan+34,+Nybro,+Sverige&key=AIzaSyAN0om9mFmy1QN6Wf54tXAowK4eT0ZUPrU"></iframe>
+</div>
+
+</main>
+</body>
+
+  <footer>Alesja's pizzor | Storgatan 34 Nybro | Tel:034-5553334
+</footer>
+
+<audio id="ljudLaggTill" src="audio/Beep-SoundBible.com-923660219.wav" ></audio>
+<audio id="skickaBestallning" src="audio/flyby-Conor-1500306612.wav" ></audio>
+</html>
